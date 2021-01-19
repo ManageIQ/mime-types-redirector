@@ -1,4 +1,5 @@
 require 'mini_mime'
+require_relative 'mime/types/version'
 
 module MIME
   class Types
