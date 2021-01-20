@@ -12,7 +12,14 @@ Gem::Specification.new do |s|
   s.authors = ["Nick LaMuro"]
   s.date = "2017-03-27"
   s.description = "Stub mime-types repo that redirects to mini-mime"
-  s.files = ["lib/mime-types.rb", "lib/mime/types.rb", "lib/mime/types/version.rb"]
+  s.files = [
+    "lib/mime-types.rb",
+    "lib/mime/types.rb",
+    "lib/mime/types/version.rb",
+    "LICENSE.txt",
+    "README.md"
+  ]
+  s.license = "Apache 2.0"
   s.required_ruby_version = Gem::Requirement.new(">= 2.0")
   s.rubygems_version = "2.6.4"
   s.summary = "Stub mime-types repo that redirects to mini-mime"
