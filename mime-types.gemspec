@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.md"
   ]
+  s.license = "Apache 2.0"
   s.required_ruby_version = Gem::Requirement.new(">= 2.0")
   s.rubygems_version = "2.6.4"
   s.summary = "Stub mime-types repo that redirects to mini-mime"
