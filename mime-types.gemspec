@@ -26,5 +26,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'mini_mime', '>= 0.1.1'
 
-  s.add_development_dependency "rake", "~> 12.0"
+  s.add_development_dependency "manageiq-style"
+  s.add_development_dependency "rake",          "~> 12.0"
 end
